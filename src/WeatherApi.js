@@ -40,6 +40,7 @@ function WeatherApi() {
           value={inputVal}
           onChange={handleInput}
           ref={(input) => input && input.focus()}
+          placeholder="Enter a city"
         />
       </form>
       <h1 className="error">{apierror}</h1>
