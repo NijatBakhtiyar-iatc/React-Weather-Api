@@ -1,0 +1,27 @@
+.weather-hourly{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    .hourly{
+        padding: 10px;
+        border-radius: 8px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        min-width: 170px;
+        p{
+            font-size: 20px;
+            +p{
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                align-items: center;
+                font-size: 20px;
+            }
+        }
+    }
+}
